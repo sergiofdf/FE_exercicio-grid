@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+
+:root{
+  --color1: #0B0B11;
+  --color2: #8288C3;
+  --color3: #242961;
+  --color4: #D0BED4;
+}
+
+
+header {
+  display: grid;
+  grid-column: 1 / 2;
+  background-color: var(--color3);
+  color: #fff;
+  padding: 20px;
+}
+
+#nome{
+  font-size: 30px;
+  margin: 20px;
+  margin-bottom: 0px;
+  color: var(--color1);
+  font-weight: bold;
+}
+
+.foto-apresentacao{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  align-items: center;
+  justify-items: center;
+  margin: 20px;
+  text-align: justify;
+  color: var(--color1);
+}
+
+.foto-apresentacao img{
+  width: 80%;
+  height: 70%;
+  border-radius: 50%;
+}
+
+.foto-apresentacao p{
+  font-size: 2.5vw;
+}
+
+h2{
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.container-formacao{
+  background-color: var(--color4);
+  padding-bottom: 20px;
+}
+
+.container-profissional{
+  background-color: var(--color3);
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.container-experiencia{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+li{
+  list-style-type: none;
+  margin: 10px 40px;
+}
+
+footer{
+  background-color: var(--color2);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer a img{
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+footer .icones, footer .textos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color1);
+}
