@@ -9,3 +9,4 @@ Obs: CSS FlexBox e Grid são itens obrigatórios no seu portfólio.
  > Michel Tadeu: https://github.com/michaelTadeu
  
   Projeto acessível no caminho abaixo:
+  >https://sergiofdf.github.io/FE_exercicio-grid/
